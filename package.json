@@ -1,0 +1,14 @@
+{
+  "name": "Lehuye_Server",
+  "version": "1.0.0",
+  "bin": "server.js",
+  "scripts": {
+    "build": "pkg . --targets node18-linux-x64,node18-macos-x64,node18-win-x64"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
