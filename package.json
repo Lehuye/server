@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "bin": "server.js",
   "scripts": {
-    "build": "pkg . --targets node18-linux-x64,node18-macos-x64,node18-win-x64"
+    "build": "mkdir -p applications && pkg . --targets node18-linux-x64,node18-macos-x64,node18-win-x64 --out-path applications"
   },
   "dependencies": {
     "ws": "^8.18.1"
